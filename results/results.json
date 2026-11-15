@@ -1,0 +1,2212 @@
+{
+  "backends": [
+    {
+      "id": "cl100k_base",
+      "family": "OpenAI",
+      "description": "OpenAI GPT-4 / GPT-3.5"
+    },
+    {
+      "id": "o200k_base",
+      "family": "OpenAI",
+      "description": "OpenAI GPT-4o / GPT-4.1"
+    },
+    {
+      "id": "o200k_harmony",
+      "family": "OpenAI",
+      "description": "OpenAI gpt-oss"
+    },
+    {
+      "id": "Qwen/Qwen3-8B",
+      "family": "Open",
+      "description": "Qwen3"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-V3",
+      "family": "Open",
+      "description": "DeepSeek-V3"
+    },
+    {
+      "id": "unsloth/Llama-3.2-1B",
+      "family": "Open",
+      "description": "Llama 3.2 (зеркало unsloth)"
+    },
+    {
+      "id": "mistralai/Mistral-Nemo-Instruct-2407",
+      "family": "Open",
+      "description": "Mistral Nemo (Tekken)"
+    },
+    {
+      "id": "unsloth/gemma-3-1b-it",
+      "family": "Open",
+      "description": "Gemma 3 (зеркало unsloth)"
+    }
+  ],
+  "skipped": [
+    [
+      "Claude (все модели)",
+      "нет ANTHROPIC_API_KEY — подсчёт через API пропущен"
+    ]
+  ],
+  "rows": [
+    {
+      "tokenizer": "cl100k_base",
+      "family": "OpenAI",
+      "test": "greeting",
+      "lang": "en",
+      "chars": 80,
+      "bytes": 80,
+      "tokens": 17
+    },
+    {
+      "tokenizer": "cl100k_base",
+      "family": "OpenAI",
+      "test": "greeting",
+      "lang": "ru",
+      "chars": 78,
+      "bytes": 142,
+      "tokens": 35
+    },
+    {
+      "tokenizer": "cl100k_base",
+      "family": "OpenAI",
+      "test": "greeting",
+      "lang": "kk",
+      "chars": 63,
+      "bytes": 115,
+      "tokens": 46
+    },
+    {
+      "tokenizer": "cl100k_base",
+      "family": "OpenAI",
+      "test": "greeting",
+      "lang": "de",
+      "chars": 93,
+      "bytes": 94,
+      "tokens": 28
+    },
+    {
+      "tokenizer": "cl100k_base",
+      "family": "OpenAI",
+      "test": "greeting",
+      "lang": "zh",
+      "chars": 22,
+      "bytes": 66,
+      "tokens": 23
+    },
+    {
+      "tokenizer": "cl100k_base",
+      "family": "OpenAI",
+      "test": "short",
+      "lang": "en",
+      "chars": 20,
+      "bytes": 20,
+      "tokens": 5
+    },
+    {
+      "tokenizer": "cl100k_base",
+      "family": "OpenAI",
+      "test": "short",
+      "lang": "ru",
+      "chars": 16,
+      "bytes": 30,
+      "tokens": 10
+    },
+    {
+      "tokenizer": "cl100k_base",
+      "family": "OpenAI",
+      "test": "short",
+      "lang": "kk",
+      "chars": 13,
+      "bytes": 24,
+      "tokens": 11
+    },
+    {
+      "tokenizer": "cl100k_base",
+      "family": "OpenAI",
+      "test": "short",
+      "lang": "de",
+      "chars": 12,
+      "bytes": 12,
+      "tokens": 4
+    },
+    {
+      "tokenizer": "cl100k_base",
+      "family": "OpenAI",
+      "test": "short",
+      "lang": "zh",
+      "chars": 5,
+      "bytes": 15,
+      "tokens": 6
+    },
+    {
+      "tokenizer": "cl100k_base",
+      "family": "OpenAI",
+      "test": "science",
+      "lang": "en",
+      "chars": 56,
+      "bytes": 56,
+      "tokens": 11
+    },
+    {
+      "tokenizer": "cl100k_base",
+      "family": "OpenAI",
+      "test": "science",
+      "lang": "ru",
+      "chars": 51,
+      "bytes": 93,
+      "tokens": 27
+    },
+    {
+      "tokenizer": "cl100k_base",
+      "family": "OpenAI",
+      "test": "science",
+      "lang": "kk",
+      "chars": 50,
+      "bytes": 93,
+      "tokens": 39
+    },
+    {
+      "tokenizer": "cl100k_base",
+      "family": "OpenAI",
+      "test": "science",
+      "lang": "de",
+      "chars": 53,
+      "bytes": 54,
+      "tokens": 16
+    },
+    {
+      "tokenizer": "cl100k_base",
+      "family": "OpenAI",
+      "test": "science",
+      "lang": "zh",
+      "chars": 17,
+      "bytes": 51,
+      "tokens": 23
+    },
+    {
+      "tokenizer": "cl100k_base",
+      "family": "OpenAI",
+      "test": "numbers_dates",
+      "lang": "en",
+      "chars": 73,
+      "bytes": 73,
+      "tokens": 28
+    },
+    {
+      "tokenizer": "cl100k_base",
+      "family": "OpenAI",
+      "test": "numbers_dates",
+      "lang": "ru",
+      "chars": 71,
+      "bytes": 106,
+      "tokens": 40
+    },
+    {
+      "tokenizer": "cl100k_base",
+      "family": "OpenAI",
+      "test": "numbers_dates",
+      "lang": "kk",
+      "chars": 71,
+      "bytes": 106,
+      "tokens": 50
+    },
+    {
+      "tokenizer": "cl100k_base",
+      "family": "OpenAI",
+      "test": "numbers_dates",
+      "lang": "de",
+      "chars": 94,
+      "bytes": 95,
+      "tokens": 34
+    },
+    {
+      "tokenizer": "cl100k_base",
+      "family": "OpenAI",
+      "test": "numbers_dates",
+      "lang": "zh",
+      "chars": 41,
+      "bytes": 73,
+      "tokens": 31
+    },
+    {
+      "tokenizer": "cl100k_base",
+      "family": "OpenAI",
+      "test": "paragraph",
+      "lang": "en",
+      "chars": 247,
+      "bytes": 247,
+      "tokens": 44
+    },
+    {
+      "tokenizer": "cl100k_base",
+      "family": "OpenAI",
+      "test": "paragraph",
+      "lang": "ru",
+      "chars": 239,
+      "bytes": 442,
+      "tokens": 94
+    },
+    {
+      "tokenizer": "cl100k_base",
+      "family": "OpenAI",
+      "test": "paragraph",
+      "lang": "kk",
+      "chars": 219,
+      "bytes": 408,
+      "tokens": 169
+    },
+    {
+      "tokenizer": "cl100k_base",
+      "family": "OpenAI",
+      "test": "paragraph",
+      "lang": "de",
+      "chars": 260,
+      "bytes": 261,
+      "tokens": 64
+    },
+    {
+      "tokenizer": "cl100k_base",
+      "family": "OpenAI",
+      "test": "paragraph",
+      "lang": "zh",
+      "chars": 71,
+      "bytes": 213,
+      "tokens": 80
+    },
+    {
+      "tokenizer": "cl100k_base",
+      "family": "OpenAI",
+      "test": "python_code",
+      "lang": "any",
+      "chars": 88,
+      "bytes": 88,
+      "tokens": 37
+    },
+    {
+      "tokenizer": "cl100k_base",
+      "family": "OpenAI",
+      "test": "json",
+      "lang": "any",
+      "chars": 78,
+      "bytes": 78,
+      "tokens": 34
+    },
+    {
+      "tokenizer": "cl100k_base",
+      "family": "OpenAI",
+      "test": "url",
+      "lang": "any",
+      "chars": 88,
+      "bytes": 88,
+      "tokens": 25
+    },
+    {
+      "tokenizer": "cl100k_base",
+      "family": "OpenAI",
+      "test": "emoji",
+      "lang": "any",
+      "chars": 6,
+      "bytes": 24,
+      "tokens": 17
+    },
+    {
+      "tokenizer": "cl100k_base",
+      "family": "OpenAI",
+      "test": "long_number",
+      "lang": "any",
+      "chars": 52,
+      "bytes": 52,
+      "tokens": 19
+    },
+    {
+      "tokenizer": "o200k_base",
+      "family": "OpenAI",
+      "test": "greeting",
+      "lang": "en",
+      "chars": 80,
+      "bytes": 80,
+      "tokens": 17
+    },
+    {
+      "tokenizer": "o200k_base",
+      "family": "OpenAI",
+      "test": "greeting",
+      "lang": "ru",
+      "chars": 78,
+      "bytes": 142,
+      "tokens": 19
+    },
+    {
+      "tokenizer": "o200k_base",
+      "family": "OpenAI",
+      "test": "greeting",
+      "lang": "kk",
+      "chars": 63,
+      "bytes": 115,
+      "tokens": 22
+    },
+    {
+      "tokenizer": "o200k_base",
+      "family": "OpenAI",
+      "test": "greeting",
+      "lang": "de",
+      "chars": 93,
+      "bytes": 94,
+      "tokens": 23
+    },
+    {
+      "tokenizer": "o200k_base",
+      "family": "OpenAI",
+      "test": "greeting",
+      "lang": "zh",
+      "chars": 22,
+      "bytes": 66,
+      "tokens": 15
+    },
+    {
+      "tokenizer": "o200k_base",
+      "family": "OpenAI",
+      "test": "short",
+      "lang": "en",
+      "chars": 20,
+      "bytes": 20,
+      "tokens": 5
+    },
+    {
+      "tokenizer": "o200k_base",
+      "family": "OpenAI",
+      "test": "short",
+      "lang": "ru",
+      "chars": 16,
+      "bytes": 30,
+      "tokens": 4
+    },
+    {
+      "tokenizer": "o200k_base",
+      "family": "OpenAI",
+      "test": "short",
+      "lang": "kk",
+      "chars": 13,
+      "bytes": 24,
+      "tokens": 6
+    },
+    {
+      "tokenizer": "o200k_base",
+      "family": "OpenAI",
+      "test": "short",
+      "lang": "de",
+      "chars": 12,
+      "bytes": 12,
+      "tokens": 3
+    },
+    {
+      "tokenizer": "o200k_base",
+      "family": "OpenAI",
+      "test": "short",
+      "lang": "zh",
+      "chars": 5,
+      "bytes": 15,
+      "tokens": 3
+    },
+    {
+      "tokenizer": "o200k_base",
+      "family": "OpenAI",
+      "test": "science",
+      "lang": "en",
+      "chars": 56,
+      "bytes": 56,
+      "tokens": 11
+    },
+    {
+      "tokenizer": "o200k_base",
+      "family": "OpenAI",
+      "test": "science",
+      "lang": "ru",
+      "chars": 51,
+      "bytes": 93,
+      "tokens": 16
+    },
+    {
+      "tokenizer": "o200k_base",
+      "family": "OpenAI",
+      "test": "science",
+      "lang": "kk",
+      "chars": 50,
+      "bytes": 93,
+      "tokens": 17
+    },
+    {
+      "tokenizer": "o200k_base",
+      "family": "OpenAI",
+      "test": "science",
+      "lang": "de",
+      "chars": 53,
+      "bytes": 54,
+      "tokens": 14
+    },
+    {
+      "tokenizer": "o200k_base",
+      "family": "OpenAI",
+      "test": "science",
+      "lang": "zh",
+      "chars": 17,
+      "bytes": 51,
+      "tokens": 18
+    },
+    {
+      "tokenizer": "o200k_base",
+      "family": "OpenAI",
+      "test": "numbers_dates",
+      "lang": "en",
+      "chars": 73,
+      "bytes": 73,
+      "tokens": 28
+    },
+    {
+      "tokenizer": "o200k_base",
+      "family": "OpenAI",
+      "test": "numbers_dates",
+      "lang": "ru",
+      "chars": 71,
+      "bytes": 106,
+      "tokens": 29
+    },
+    {
+      "tokenizer": "o200k_base",
+      "family": "OpenAI",
+      "test": "numbers_dates",
+      "lang": "kk",
+      "chars": 71,
+      "bytes": 106,
+      "tokens": 32
+    },
+    {
+      "tokenizer": "o200k_base",
+      "family": "OpenAI",
+      "test": "numbers_dates",
+      "lang": "de",
+      "chars": 94,
+      "bytes": 95,
+      "tokens": 31
+    },
+    {
+      "tokenizer": "o200k_base",
+      "family": "OpenAI",
+      "test": "numbers_dates",
+      "lang": "zh",
+      "chars": 41,
+      "bytes": 73,
+      "tokens": 26
+    },
+    {
+      "tokenizer": "o200k_base",
+      "family": "OpenAI",
+      "test": "paragraph",
+      "lang": "en",
+      "chars": 247,
+      "bytes": 247,
+      "tokens": 44
+    },
+    {
+      "tokenizer": "o200k_base",
+      "family": "OpenAI",
+      "test": "paragraph",
+      "lang": "ru",
+      "chars": 239,
+      "bytes": 442,
+      "tokens": 57
+    },
+    {
+      "tokenizer": "o200k_base",
+      "family": "OpenAI",
+      "test": "paragraph",
+      "lang": "kk",
+      "chars": 219,
+      "bytes": 408,
+      "tokens": 70
+    },
+    {
+      "tokenizer": "o200k_base",
+      "family": "OpenAI",
+      "test": "paragraph",
+      "lang": "de",
+      "chars": 260,
+      "bytes": 261,
+      "tokens": 53
+    },
+    {
+      "tokenizer": "o200k_base",
+      "family": "OpenAI",
+      "test": "paragraph",
+      "lang": "zh",
+      "chars": 71,
+      "bytes": 213,
+      "tokens": 52
+    },
+    {
+      "tokenizer": "o200k_base",
+      "family": "OpenAI",
+      "test": "python_code",
+      "lang": "any",
+      "chars": 88,
+      "bytes": 88,
+      "tokens": 37
+    },
+    {
+      "tokenizer": "o200k_base",
+      "family": "OpenAI",
+      "test": "json",
+      "lang": "any",
+      "chars": 78,
+      "bytes": 78,
+      "tokens": 34
+    },
+    {
+      "tokenizer": "o200k_base",
+      "family": "OpenAI",
+      "test": "url",
+      "lang": "any",
+      "chars": 88,
+      "bytes": 88,
+      "tokens": 25
+    },
+    {
+      "tokenizer": "o200k_base",
+      "family": "OpenAI",
+      "test": "emoji",
+      "lang": "any",
+      "chars": 6,
+      "bytes": 24,
+      "tokens": 10
+    },
+    {
+      "tokenizer": "o200k_base",
+      "family": "OpenAI",
+      "test": "long_number",
+      "lang": "any",
+      "chars": 52,
+      "bytes": 52,
+      "tokens": 19
+    },
+    {
+      "tokenizer": "o200k_harmony",
+      "family": "OpenAI",
+      "test": "greeting",
+      "lang": "en",
+      "chars": 80,
+      "bytes": 80,
+      "tokens": 17
+    },
+    {
+      "tokenizer": "o200k_harmony",
+      "family": "OpenAI",
+      "test": "greeting",
+      "lang": "ru",
+      "chars": 78,
+      "bytes": 142,
+      "tokens": 19
+    },
+    {
+      "tokenizer": "o200k_harmony",
+      "family": "OpenAI",
+      "test": "greeting",
+      "lang": "kk",
+      "chars": 63,
+      "bytes": 115,
+      "tokens": 22
+    },
+    {
+      "tokenizer": "o200k_harmony",
+      "family": "OpenAI",
+      "test": "greeting",
+      "lang": "de",
+      "chars": 93,
+      "bytes": 94,
+      "tokens": 23
+    },
+    {
+      "tokenizer": "o200k_harmony",
+      "family": "OpenAI",
+      "test": "greeting",
+      "lang": "zh",
+      "chars": 22,
+      "bytes": 66,
+      "tokens": 15
+    },
+    {
+      "tokenizer": "o200k_harmony",
+      "family": "OpenAI",
+      "test": "short",
+      "lang": "en",
+      "chars": 20,
+      "bytes": 20,
+      "tokens": 5
+    },
+    {
+      "tokenizer": "o200k_harmony",
+      "family": "OpenAI",
+      "test": "short",
+      "lang": "ru",
+      "chars": 16,
+      "bytes": 30,
+      "tokens": 4
+    },
+    {
+      "tokenizer": "o200k_harmony",
+      "family": "OpenAI",
+      "test": "short",
+      "lang": "kk",
+      "chars": 13,
+      "bytes": 24,
+      "tokens": 6
+    },
+    {
+      "tokenizer": "o200k_harmony",
+      "family": "OpenAI",
+      "test": "short",
+      "lang": "de",
+      "chars": 12,
+      "bytes": 12,
+      "tokens": 3
+    },
+    {
+      "tokenizer": "o200k_harmony",
+      "family": "OpenAI",
+      "test": "short",
+      "lang": "zh",
+      "chars": 5,
+      "bytes": 15,
+      "tokens": 3
+    },
+    {
+      "tokenizer": "o200k_harmony",
+      "family": "OpenAI",
+      "test": "science",
+      "lang": "en",
+      "chars": 56,
+      "bytes": 56,
+      "tokens": 11
+    },
+    {
+      "tokenizer": "o200k_harmony",
+      "family": "OpenAI",
+      "test": "science",
+      "lang": "ru",
+      "chars": 51,
+      "bytes": 93,
+      "tokens": 16
+    },
+    {
+      "tokenizer": "o200k_harmony",
+      "family": "OpenAI",
+      "test": "science",
+      "lang": "kk",
+      "chars": 50,
+      "bytes": 93,
+      "tokens": 17
+    },
+    {
+      "tokenizer": "o200k_harmony",
+      "family": "OpenAI",
+      "test": "science",
+      "lang": "de",
+      "chars": 53,
+      "bytes": 54,
+      "tokens": 14
+    },
+    {
+      "tokenizer": "o200k_harmony",
+      "family": "OpenAI",
+      "test": "science",
+      "lang": "zh",
+      "chars": 17,
+      "bytes": 51,
+      "tokens": 18
+    },
+    {
+      "tokenizer": "o200k_harmony",
+      "family": "OpenAI",
+      "test": "numbers_dates",
+      "lang": "en",
+      "chars": 73,
+      "bytes": 73,
+      "tokens": 28
+    },
+    {
+      "tokenizer": "o200k_harmony",
+      "family": "OpenAI",
+      "test": "numbers_dates",
+      "lang": "ru",
+      "chars": 71,
+      "bytes": 106,
+      "tokens": 29
+    },
+    {
+      "tokenizer": "o200k_harmony",
+      "family": "OpenAI",
+      "test": "numbers_dates",
+      "lang": "kk",
+      "chars": 71,
+      "bytes": 106,
+      "tokens": 32
+    },
+    {
+      "tokenizer": "o200k_harmony",
+      "family": "OpenAI",
+      "test": "numbers_dates",
+      "lang": "de",
+      "chars": 94,
+      "bytes": 95,
+      "tokens": 31
+    },
+    {
+      "tokenizer": "o200k_harmony",
+      "family": "OpenAI",
+      "test": "numbers_dates",
+      "lang": "zh",
+      "chars": 41,
+      "bytes": 73,
+      "tokens": 26
+    },
+    {
+      "tokenizer": "o200k_harmony",
+      "family": "OpenAI",
+      "test": "paragraph",
+      "lang": "en",
+      "chars": 247,
+      "bytes": 247,
+      "tokens": 44
+    },
+    {
+      "tokenizer": "o200k_harmony",
+      "family": "OpenAI",
+      "test": "paragraph",
+      "lang": "ru",
+      "chars": 239,
+      "bytes": 442,
+      "tokens": 57
+    },
+    {
+      "tokenizer": "o200k_harmony",
+      "family": "OpenAI",
+      "test": "paragraph",
+      "lang": "kk",
+      "chars": 219,
+      "bytes": 408,
+      "tokens": 70
+    },
+    {
+      "tokenizer": "o200k_harmony",
+      "family": "OpenAI",
+      "test": "paragraph",
+      "lang": "de",
+      "chars": 260,
+      "bytes": 261,
+      "tokens": 53
+    },
+    {
+      "tokenizer": "o200k_harmony",
+      "family": "OpenAI",
+      "test": "paragraph",
+      "lang": "zh",
+      "chars": 71,
+      "bytes": 213,
+      "tokens": 52
+    },
+    {
+      "tokenizer": "o200k_harmony",
+      "family": "OpenAI",
+      "test": "python_code",
+      "lang": "any",
+      "chars": 88,
+      "bytes": 88,
+      "tokens": 37
+    },
+    {
+      "tokenizer": "o200k_harmony",
+      "family": "OpenAI",
+      "test": "json",
+      "lang": "any",
+      "chars": 78,
+      "bytes": 78,
+      "tokens": 34
+    },
+    {
+      "tokenizer": "o200k_harmony",
+      "family": "OpenAI",
+      "test": "url",
+      "lang": "any",
+      "chars": 88,
+      "bytes": 88,
+      "tokens": 25
+    },
+    {
+      "tokenizer": "o200k_harmony",
+      "family": "OpenAI",
+      "test": "emoji",
+      "lang": "any",
+      "chars": 6,
+      "bytes": 24,
+      "tokens": 10
+    },
+    {
+      "tokenizer": "o200k_harmony",
+      "family": "OpenAI",
+      "test": "long_number",
+      "lang": "any",
+      "chars": 52,
+      "bytes": 52,
+      "tokens": 19
+    },
+    {
+      "tokenizer": "Qwen/Qwen3-8B",
+      "family": "Open",
+      "test": "greeting",
+      "lang": "en",
+      "chars": 80,
+      "bytes": 80,
+      "tokens": 17
+    },
+    {
+      "tokenizer": "Qwen/Qwen3-8B",
+      "family": "Open",
+      "test": "greeting",
+      "lang": "ru",
+      "chars": 78,
+      "bytes": 142,
+      "tokens": 25
+    },
+    {
+      "tokenizer": "Qwen/Qwen3-8B",
+      "family": "Open",
+      "test": "greeting",
+      "lang": "kk",
+      "chars": 63,
+      "bytes": 115,
+      "tokens": 38
+    },
+    {
+      "tokenizer": "Qwen/Qwen3-8B",
+      "family": "Open",
+      "test": "greeting",
+      "lang": "de",
+      "chars": 93,
+      "bytes": 94,
+      "tokens": 28
+    },
+    {
+      "tokenizer": "Qwen/Qwen3-8B",
+      "family": "Open",
+      "test": "greeting",
+      "lang": "zh",
+      "chars": 22,
+      "bytes": 66,
+      "tokens": 13
+    },
+    {
+      "tokenizer": "Qwen/Qwen3-8B",
+      "family": "Open",
+      "test": "short",
+      "lang": "en",
+      "chars": 20,
+      "bytes": 20,
+      "tokens": 5
+    },
+    {
+      "tokenizer": "Qwen/Qwen3-8B",
+      "family": "Open",
+      "test": "short",
+      "lang": "ru",
+      "chars": 16,
+      "bytes": 30,
+      "tokens": 9
+    },
+    {
+      "tokenizer": "Qwen/Qwen3-8B",
+      "family": "Open",
+      "test": "short",
+      "lang": "kk",
+      "chars": 13,
+      "bytes": 24,
+      "tokens": 8
+    },
+    {
+      "tokenizer": "Qwen/Qwen3-8B",
+      "family": "Open",
+      "test": "short",
+      "lang": "de",
+      "chars": 12,
+      "bytes": 12,
+      "tokens": 4
+    },
+    {
+      "tokenizer": "Qwen/Qwen3-8B",
+      "family": "Open",
+      "test": "short",
+      "lang": "zh",
+      "chars": 5,
+      "bytes": 15,
+      "tokens": 3
+    },
+    {
+      "tokenizer": "Qwen/Qwen3-8B",
+      "family": "Open",
+      "test": "science",
+      "lang": "en",
+      "chars": 56,
+      "bytes": 56,
+      "tokens": 11
+    },
+    {
+      "tokenizer": "Qwen/Qwen3-8B",
+      "family": "Open",
+      "test": "science",
+      "lang": "ru",
+      "chars": 51,
+      "bytes": 93,
+      "tokens": 22
+    },
+    {
+      "tokenizer": "Qwen/Qwen3-8B",
+      "family": "Open",
+      "test": "science",
+      "lang": "kk",
+      "chars": 50,
+      "bytes": 93,
+      "tokens": 30
+    },
+    {
+      "tokenizer": "Qwen/Qwen3-8B",
+      "family": "Open",
+      "test": "science",
+      "lang": "de",
+      "chars": 53,
+      "bytes": 54,
+      "tokens": 16
+    },
+    {
+      "tokenizer": "Qwen/Qwen3-8B",
+      "family": "Open",
+      "test": "science",
+      "lang": "zh",
+      "chars": 17,
+      "bytes": 51,
+      "tokens": 14
+    },
+    {
+      "tokenizer": "Qwen/Qwen3-8B",
+      "family": "Open",
+      "test": "numbers_dates",
+      "lang": "en",
+      "chars": 73,
+      "bytes": 73,
+      "tokens": 38
+    },
+    {
+      "tokenizer": "Qwen/Qwen3-8B",
+      "family": "Open",
+      "test": "numbers_dates",
+      "lang": "ru",
+      "chars": 71,
+      "bytes": 106,
+      "tokens": 39
+    },
+    {
+      "tokenizer": "Qwen/Qwen3-8B",
+      "family": "Open",
+      "test": "numbers_dates",
+      "lang": "kk",
+      "chars": 71,
+      "bytes": 106,
+      "tokens": 52
+    },
+    {
+      "tokenizer": "Qwen/Qwen3-8B",
+      "family": "Open",
+      "test": "numbers_dates",
+      "lang": "de",
+      "chars": 94,
+      "bytes": 95,
+      "tokens": 44
+    },
+    {
+      "tokenizer": "Qwen/Qwen3-8B",
+      "family": "Open",
+      "test": "numbers_dates",
+      "lang": "zh",
+      "chars": 41,
+      "bytes": 73,
+      "tokens": 36
+    },
+    {
+      "tokenizer": "Qwen/Qwen3-8B",
+      "family": "Open",
+      "test": "paragraph",
+      "lang": "en",
+      "chars": 247,
+      "bytes": 247,
+      "tokens": 44
+    },
+    {
+      "tokenizer": "Qwen/Qwen3-8B",
+      "family": "Open",
+      "test": "paragraph",
+      "lang": "ru",
+      "chars": 239,
+      "bytes": 442,
+      "tokens": 75
+    },
+    {
+      "tokenizer": "Qwen/Qwen3-8B",
+      "family": "Open",
+      "test": "paragraph",
+      "lang": "kk",
+      "chars": 219,
+      "bytes": 408,
+      "tokens": 138
+    },
+    {
+      "tokenizer": "Qwen/Qwen3-8B",
+      "family": "Open",
+      "test": "paragraph",
+      "lang": "de",
+      "chars": 260,
+      "bytes": 261,
+      "tokens": 64
+    },
+    {
+      "tokenizer": "Qwen/Qwen3-8B",
+      "family": "Open",
+      "test": "paragraph",
+      "lang": "zh",
+      "chars": 71,
+      "bytes": 213,
+      "tokens": 45
+    },
+    {
+      "tokenizer": "Qwen/Qwen3-8B",
+      "family": "Open",
+      "test": "python_code",
+      "lang": "any",
+      "chars": 88,
+      "bytes": 88,
+      "tokens": 37
+    },
+    {
+      "tokenizer": "Qwen/Qwen3-8B",
+      "family": "Open",
+      "test": "json",
+      "lang": "any",
+      "chars": 78,
+      "bytes": 78,
+      "tokens": 37
+    },
+    {
+      "tokenizer": "Qwen/Qwen3-8B",
+      "family": "Open",
+      "test": "url",
+      "lang": "any",
+      "chars": 88,
+      "bytes": 88,
+      "tokens": 25
+    },
+    {
+      "tokenizer": "Qwen/Qwen3-8B",
+      "family": "Open",
+      "test": "emoji",
+      "lang": "any",
+      "chars": 6,
+      "bytes": 24,
+      "tokens": 6
+    },
+    {
+      "tokenizer": "Qwen/Qwen3-8B",
+      "family": "Open",
+      "test": "long_number",
+      "lang": "any",
+      "chars": 52,
+      "bytes": 52,
+      "tokens": 52
+    },
+    {
+      "tokenizer": "deepseek-ai/DeepSeek-V3",
+      "family": "Open",
+      "test": "greeting",
+      "lang": "en",
+      "chars": 80,
+      "bytes": 80,
+      "tokens": 17
+    },
+    {
+      "tokenizer": "deepseek-ai/DeepSeek-V3",
+      "family": "Open",
+      "test": "greeting",
+      "lang": "ru",
+      "chars": 78,
+      "bytes": 142,
+      "tokens": 21
+    },
+    {
+      "tokenizer": "deepseek-ai/DeepSeek-V3",
+      "family": "Open",
+      "test": "greeting",
+      "lang": "kk",
+      "chars": 63,
+      "bytes": 115,
+      "tokens": 34
+    },
+    {
+      "tokenizer": "deepseek-ai/DeepSeek-V3",
+      "family": "Open",
+      "test": "greeting",
+      "lang": "de",
+      "chars": 93,
+      "bytes": 94,
+      "tokens": 27
+    },
+    {
+      "tokenizer": "deepseek-ai/DeepSeek-V3",
+      "family": "Open",
+      "test": "greeting",
+      "lang": "zh",
+      "chars": 22,
+      "bytes": 66,
+      "tokens": 12
+    },
+    {
+      "tokenizer": "deepseek-ai/DeepSeek-V3",
+      "family": "Open",
+      "test": "short",
+      "lang": "en",
+      "chars": 20,
+      "bytes": 20,
+      "tokens": 5
+    },
+    {
+      "tokenizer": "deepseek-ai/DeepSeek-V3",
+      "family": "Open",
+      "test": "short",
+      "lang": "ru",
+      "chars": 16,
+      "bytes": 30,
+      "tokens": 7
+    },
+    {
+      "tokenizer": "deepseek-ai/DeepSeek-V3",
+      "family": "Open",
+      "test": "short",
+      "lang": "kk",
+      "chars": 13,
+      "bytes": 24,
+      "tokens": 9
+    },
+    {
+      "tokenizer": "deepseek-ai/DeepSeek-V3",
+      "family": "Open",
+      "test": "short",
+      "lang": "de",
+      "chars": 12,
+      "bytes": 12,
+      "tokens": 4
+    },
+    {
+      "tokenizer": "deepseek-ai/DeepSeek-V3",
+      "family": "Open",
+      "test": "short",
+      "lang": "zh",
+      "chars": 5,
+      "bytes": 15,
+      "tokens": 2
+    },
+    {
+      "tokenizer": "deepseek-ai/DeepSeek-V3",
+      "family": "Open",
+      "test": "science",
+      "lang": "en",
+      "chars": 56,
+      "bytes": 56,
+      "tokens": 11
+    },
+    {
+      "tokenizer": "deepseek-ai/DeepSeek-V3",
+      "family": "Open",
+      "test": "science",
+      "lang": "ru",
+      "chars": 51,
+      "bytes": 93,
+      "tokens": 17
+    },
+    {
+      "tokenizer": "deepseek-ai/DeepSeek-V3",
+      "family": "Open",
+      "test": "science",
+      "lang": "kk",
+      "chars": 50,
+      "bytes": 93,
+      "tokens": 26
+    },
+    {
+      "tokenizer": "deepseek-ai/DeepSeek-V3",
+      "family": "Open",
+      "test": "science",
+      "lang": "de",
+      "chars": 53,
+      "bytes": 54,
+      "tokens": 15
+    },
+    {
+      "tokenizer": "deepseek-ai/DeepSeek-V3",
+      "family": "Open",
+      "test": "science",
+      "lang": "zh",
+      "chars": 17,
+      "bytes": 51,
+      "tokens": 10
+    },
+    {
+      "tokenizer": "deepseek-ai/DeepSeek-V3",
+      "family": "Open",
+      "test": "numbers_dates",
+      "lang": "en",
+      "chars": 73,
+      "bytes": 73,
+      "tokens": 28
+    },
+    {
+      "tokenizer": "deepseek-ai/DeepSeek-V3",
+      "family": "Open",
+      "test": "numbers_dates",
+      "lang": "ru",
+      "chars": 71,
+      "bytes": 106,
+      "tokens": 30
+    },
+    {
+      "tokenizer": "deepseek-ai/DeepSeek-V3",
+      "family": "Open",
+      "test": "numbers_dates",
+      "lang": "kk",
+      "chars": 71,
+      "bytes": 106,
+      "tokens": 37
+    },
+    {
+      "tokenizer": "deepseek-ai/DeepSeek-V3",
+      "family": "Open",
+      "test": "numbers_dates",
+      "lang": "de",
+      "chars": 94,
+      "bytes": 95,
+      "tokens": 33
+    },
+    {
+      "tokenizer": "deepseek-ai/DeepSeek-V3",
+      "family": "Open",
+      "test": "numbers_dates",
+      "lang": "zh",
+      "chars": 41,
+      "bytes": 73,
+      "tokens": 25
+    },
+    {
+      "tokenizer": "deepseek-ai/DeepSeek-V3",
+      "family": "Open",
+      "test": "paragraph",
+      "lang": "en",
+      "chars": 247,
+      "bytes": 247,
+      "tokens": 44
+    },
+    {
+      "tokenizer": "deepseek-ai/DeepSeek-V3",
+      "family": "Open",
+      "test": "paragraph",
+      "lang": "ru",
+      "chars": 239,
+      "bytes": 442,
+      "tokens": 62
+    },
+    {
+      "tokenizer": "deepseek-ai/DeepSeek-V3",
+      "family": "Open",
+      "test": "paragraph",
+      "lang": "kk",
+      "chars": 219,
+      "bytes": 408,
+      "tokens": 120
+    },
+    {
+      "tokenizer": "deepseek-ai/DeepSeek-V3",
+      "family": "Open",
+      "test": "paragraph",
+      "lang": "de",
+      "chars": 260,
+      "bytes": 261,
+      "tokens": 64
+    },
+    {
+      "tokenizer": "deepseek-ai/DeepSeek-V3",
+      "family": "Open",
+      "test": "paragraph",
+      "lang": "zh",
+      "chars": 71,
+      "bytes": 213,
+      "tokens": 39
+    },
+    {
+      "tokenizer": "deepseek-ai/DeepSeek-V3",
+      "family": "Open",
+      "test": "python_code",
+      "lang": "any",
+      "chars": 88,
+      "bytes": 88,
+      "tokens": 37
+    },
+    {
+      "tokenizer": "deepseek-ai/DeepSeek-V3",
+      "family": "Open",
+      "test": "json",
+      "lang": "any",
+      "chars": 78,
+      "bytes": 78,
+      "tokens": 34
+    },
+    {
+      "tokenizer": "deepseek-ai/DeepSeek-V3",
+      "family": "Open",
+      "test": "url",
+      "lang": "any",
+      "chars": 88,
+      "bytes": 88,
+      "tokens": 28
+    },
+    {
+      "tokenizer": "deepseek-ai/DeepSeek-V3",
+      "family": "Open",
+      "test": "emoji",
+      "lang": "any",
+      "chars": 6,
+      "bytes": 24,
+      "tokens": 11
+    },
+    {
+      "tokenizer": "deepseek-ai/DeepSeek-V3",
+      "family": "Open",
+      "test": "long_number",
+      "lang": "any",
+      "chars": 52,
+      "bytes": 52,
+      "tokens": 19
+    },
+    {
+      "tokenizer": "unsloth/Llama-3.2-1B",
+      "family": "Open",
+      "test": "greeting",
+      "lang": "en",
+      "chars": 80,
+      "bytes": 80,
+      "tokens": 17
+    },
+    {
+      "tokenizer": "unsloth/Llama-3.2-1B",
+      "family": "Open",
+      "test": "greeting",
+      "lang": "ru",
+      "chars": 78,
+      "bytes": 142,
+      "tokens": 26
+    },
+    {
+      "tokenizer": "unsloth/Llama-3.2-1B",
+      "family": "Open",
+      "test": "greeting",
+      "lang": "kk",
+      "chars": 63,
+      "bytes": 115,
+      "tokens": 35
+    },
+    {
+      "tokenizer": "unsloth/Llama-3.2-1B",
+      "family": "Open",
+      "test": "greeting",
+      "lang": "de",
+      "chars": 93,
+      "bytes": 94,
+      "tokens": 28
+    },
+    {
+      "tokenizer": "unsloth/Llama-3.2-1B",
+      "family": "Open",
+      "test": "greeting",
+      "lang": "zh",
+      "chars": 22,
+      "bytes": 66,
+      "tokens": 17
+    },
+    {
+      "tokenizer": "unsloth/Llama-3.2-1B",
+      "family": "Open",
+      "test": "short",
+      "lang": "en",
+      "chars": 20,
+      "bytes": 20,
+      "tokens": 5
+    },
+    {
+      "tokenizer": "unsloth/Llama-3.2-1B",
+      "family": "Open",
+      "test": "short",
+      "lang": "ru",
+      "chars": 16,
+      "bytes": 30,
+      "tokens": 7
+    },
+    {
+      "tokenizer": "unsloth/Llama-3.2-1B",
+      "family": "Open",
+      "test": "short",
+      "lang": "kk",
+      "chars": 13,
+      "bytes": 24,
+      "tokens": 8
+    },
+    {
+      "tokenizer": "unsloth/Llama-3.2-1B",
+      "family": "Open",
+      "test": "short",
+      "lang": "de",
+      "chars": 12,
+      "bytes": 12,
+      "tokens": 4
+    },
+    {
+      "tokenizer": "unsloth/Llama-3.2-1B",
+      "family": "Open",
+      "test": "short",
+      "lang": "zh",
+      "chars": 5,
+      "bytes": 15,
+      "tokens": 4
+    },
+    {
+      "tokenizer": "unsloth/Llama-3.2-1B",
+      "family": "Open",
+      "test": "science",
+      "lang": "en",
+      "chars": 56,
+      "bytes": 56,
+      "tokens": 11
+    },
+    {
+      "tokenizer": "unsloth/Llama-3.2-1B",
+      "family": "Open",
+      "test": "science",
+      "lang": "ru",
+      "chars": 51,
+      "bytes": 93,
+      "tokens": 17
+    },
+    {
+      "tokenizer": "unsloth/Llama-3.2-1B",
+      "family": "Open",
+      "test": "science",
+      "lang": "kk",
+      "chars": 50,
+      "bytes": 93,
+      "tokens": 31
+    },
+    {
+      "tokenizer": "unsloth/Llama-3.2-1B",
+      "family": "Open",
+      "test": "science",
+      "lang": "de",
+      "chars": 53,
+      "bytes": 54,
+      "tokens": 16
+    },
+    {
+      "tokenizer": "unsloth/Llama-3.2-1B",
+      "family": "Open",
+      "test": "science",
+      "lang": "zh",
+      "chars": 17,
+      "bytes": 51,
+      "tokens": 18
+    },
+    {
+      "tokenizer": "unsloth/Llama-3.2-1B",
+      "family": "Open",
+      "test": "numbers_dates",
+      "lang": "en",
+      "chars": 73,
+      "bytes": 73,
+      "tokens": 28
+    },
+    {
+      "tokenizer": "unsloth/Llama-3.2-1B",
+      "family": "Open",
+      "test": "numbers_dates",
+      "lang": "ru",
+      "chars": 71,
+      "bytes": 106,
+      "tokens": 31
+    },
+    {
+      "tokenizer": "unsloth/Llama-3.2-1B",
+      "family": "Open",
+      "test": "numbers_dates",
+      "lang": "kk",
+      "chars": 71,
+      "bytes": 106,
+      "tokens": 42
+    },
+    {
+      "tokenizer": "unsloth/Llama-3.2-1B",
+      "family": "Open",
+      "test": "numbers_dates",
+      "lang": "de",
+      "chars": 94,
+      "bytes": 95,
+      "tokens": 34
+    },
+    {
+      "tokenizer": "unsloth/Llama-3.2-1B",
+      "family": "Open",
+      "test": "numbers_dates",
+      "lang": "zh",
+      "chars": 41,
+      "bytes": 73,
+      "tokens": 28
+    },
+    {
+      "tokenizer": "unsloth/Llama-3.2-1B",
+      "family": "Open",
+      "test": "paragraph",
+      "lang": "en",
+      "chars": 247,
+      "bytes": 247,
+      "tokens": 44
+    },
+    {
+      "tokenizer": "unsloth/Llama-3.2-1B",
+      "family": "Open",
+      "test": "paragraph",
+      "lang": "ru",
+      "chars": 239,
+      "bytes": 442,
+      "tokens": 69
+    },
+    {
+      "tokenizer": "unsloth/Llama-3.2-1B",
+      "family": "Open",
+      "test": "paragraph",
+      "lang": "kk",
+      "chars": 219,
+      "bytes": 408,
+      "tokens": 137
+    },
+    {
+      "tokenizer": "unsloth/Llama-3.2-1B",
+      "family": "Open",
+      "test": "paragraph",
+      "lang": "de",
+      "chars": 260,
+      "bytes": 261,
+      "tokens": 64
+    },
+    {
+      "tokenizer": "unsloth/Llama-3.2-1B",
+      "family": "Open",
+      "test": "paragraph",
+      "lang": "zh",
+      "chars": 71,
+      "bytes": 213,
+      "tokens": 57
+    },
+    {
+      "tokenizer": "unsloth/Llama-3.2-1B",
+      "family": "Open",
+      "test": "python_code",
+      "lang": "any",
+      "chars": 88,
+      "bytes": 88,
+      "tokens": 37
+    },
+    {
+      "tokenizer": "unsloth/Llama-3.2-1B",
+      "family": "Open",
+      "test": "json",
+      "lang": "any",
+      "chars": 78,
+      "bytes": 78,
+      "tokens": 34
+    },
+    {
+      "tokenizer": "unsloth/Llama-3.2-1B",
+      "family": "Open",
+      "test": "url",
+      "lang": "any",
+      "chars": 88,
+      "bytes": 88,
+      "tokens": 25
+    },
+    {
+      "tokenizer": "unsloth/Llama-3.2-1B",
+      "family": "Open",
+      "test": "emoji",
+      "lang": "any",
+      "chars": 6,
+      "bytes": 24,
+      "tokens": 17
+    },
+    {
+      "tokenizer": "unsloth/Llama-3.2-1B",
+      "family": "Open",
+      "test": "long_number",
+      "lang": "any",
+      "chars": 52,
+      "bytes": 52,
+      "tokens": 19
+    },
+    {
+      "tokenizer": "mistralai/Mistral-Nemo-Instruct-2407",
+      "family": "Open",
+      "test": "greeting",
+      "lang": "en",
+      "chars": 80,
+      "bytes": 80,
+      "tokens": 17
+    },
+    {
+      "tokenizer": "mistralai/Mistral-Nemo-Instruct-2407",
+      "family": "Open",
+      "test": "greeting",
+      "lang": "ru",
+      "chars": 78,
+      "bytes": 142,
+      "tokens": 22
+    },
+    {
+      "tokenizer": "mistralai/Mistral-Nemo-Instruct-2407",
+      "family": "Open",
+      "test": "greeting",
+      "lang": "kk",
+      "chars": 63,
+      "bytes": 115,
+      "tokens": 28
+    },
+    {
+      "tokenizer": "mistralai/Mistral-Nemo-Instruct-2407",
+      "family": "Open",
+      "test": "greeting",
+      "lang": "de",
+      "chars": 93,
+      "bytes": 94,
+      "tokens": 27
+    },
+    {
+      "tokenizer": "mistralai/Mistral-Nemo-Instruct-2407",
+      "family": "Open",
+      "test": "greeting",
+      "lang": "zh",
+      "chars": 22,
+      "bytes": 66,
+      "tokens": 18
+    },
+    {
+      "tokenizer": "mistralai/Mistral-Nemo-Instruct-2407",
+      "family": "Open",
+      "test": "short",
+      "lang": "en",
+      "chars": 20,
+      "bytes": 20,
+      "tokens": 5
+    },
+    {
+      "tokenizer": "mistralai/Mistral-Nemo-Instruct-2407",
+      "family": "Open",
+      "test": "short",
+      "lang": "ru",
+      "chars": 16,
+      "bytes": 30,
+      "tokens": 6
+    },
+    {
+      "tokenizer": "mistralai/Mistral-Nemo-Instruct-2407",
+      "family": "Open",
+      "test": "short",
+      "lang": "kk",
+      "chars": 13,
+      "bytes": 24,
+      "tokens": 8
+    },
+    {
+      "tokenizer": "mistralai/Mistral-Nemo-Instruct-2407",
+      "family": "Open",
+      "test": "short",
+      "lang": "de",
+      "chars": 12,
+      "bytes": 12,
+      "tokens": 4
+    },
+    {
+      "tokenizer": "mistralai/Mistral-Nemo-Instruct-2407",
+      "family": "Open",
+      "test": "short",
+      "lang": "zh",
+      "chars": 5,
+      "bytes": 15,
+      "tokens": 4
+    },
+    {
+      "tokenizer": "mistralai/Mistral-Nemo-Instruct-2407",
+      "family": "Open",
+      "test": "science",
+      "lang": "en",
+      "chars": 56,
+      "bytes": 56,
+      "tokens": 12
+    },
+    {
+      "tokenizer": "mistralai/Mistral-Nemo-Instruct-2407",
+      "family": "Open",
+      "test": "science",
+      "lang": "ru",
+      "chars": 51,
+      "bytes": 93,
+      "tokens": 17
+    },
+    {
+      "tokenizer": "mistralai/Mistral-Nemo-Instruct-2407",
+      "family": "Open",
+      "test": "science",
+      "lang": "kk",
+      "chars": 50,
+      "bytes": 93,
+      "tokens": 21
+    },
+    {
+      "tokenizer": "mistralai/Mistral-Nemo-Instruct-2407",
+      "family": "Open",
+      "test": "science",
+      "lang": "de",
+      "chars": 53,
+      "bytes": 54,
+      "tokens": 14
+    },
+    {
+      "tokenizer": "mistralai/Mistral-Nemo-Instruct-2407",
+      "family": "Open",
+      "test": "science",
+      "lang": "zh",
+      "chars": 17,
+      "bytes": 51,
+      "tokens": 20
+    },
+    {
+      "tokenizer": "mistralai/Mistral-Nemo-Instruct-2407",
+      "family": "Open",
+      "test": "numbers_dates",
+      "lang": "en",
+      "chars": 73,
+      "bytes": 73,
+      "tokens": 38
+    },
+    {
+      "tokenizer": "mistralai/Mistral-Nemo-Instruct-2407",
+      "family": "Open",
+      "test": "numbers_dates",
+      "lang": "ru",
+      "chars": 71,
+      "bytes": 106,
+      "tokens": 42
+    },
+    {
+      "tokenizer": "mistralai/Mistral-Nemo-Instruct-2407",
+      "family": "Open",
+      "test": "numbers_dates",
+      "lang": "kk",
+      "chars": 71,
+      "bytes": 106,
+      "tokens": 47
+    },
+    {
+      "tokenizer": "mistralai/Mistral-Nemo-Instruct-2407",
+      "family": "Open",
+      "test": "numbers_dates",
+      "lang": "de",
+      "chars": 94,
+      "bytes": 95,
+      "tokens": 42
+    },
+    {
+      "tokenizer": "mistralai/Mistral-Nemo-Instruct-2407",
+      "family": "Open",
+      "test": "numbers_dates",
+      "lang": "zh",
+      "chars": 41,
+      "bytes": 73,
+      "tokens": 41
+    },
+    {
+      "tokenizer": "mistralai/Mistral-Nemo-Instruct-2407",
+      "family": "Open",
+      "test": "paragraph",
+      "lang": "en",
+      "chars": 247,
+      "bytes": 247,
+      "tokens": 44
+    },
+    {
+      "tokenizer": "mistralai/Mistral-Nemo-Instruct-2407",
+      "family": "Open",
+      "test": "paragraph",
+      "lang": "ru",
+      "chars": 239,
+      "bytes": 442,
+      "tokens": 64
+    },
+    {
+      "tokenizer": "mistralai/Mistral-Nemo-Instruct-2407",
+      "family": "Open",
+      "test": "paragraph",
+      "lang": "kk",
+      "chars": 219,
+      "bytes": 408,
+      "tokens": 98
+    },
+    {
+      "tokenizer": "mistralai/Mistral-Nemo-Instruct-2407",
+      "family": "Open",
+      "test": "paragraph",
+      "lang": "de",
+      "chars": 260,
+      "bytes": 261,
+      "tokens": 60
+    },
+    {
+      "tokenizer": "mistralai/Mistral-Nemo-Instruct-2407",
+      "family": "Open",
+      "test": "paragraph",
+      "lang": "zh",
+      "chars": 71,
+      "bytes": 213,
+      "tokens": 67
+    },
+    {
+      "tokenizer": "mistralai/Mistral-Nemo-Instruct-2407",
+      "family": "Open",
+      "test": "python_code",
+      "lang": "any",
+      "chars": 88,
+      "bytes": 88,
+      "tokens": 37
+    },
+    {
+      "tokenizer": "mistralai/Mistral-Nemo-Instruct-2407",
+      "family": "Open",
+      "test": "json",
+      "lang": "any",
+      "chars": 78,
+      "bytes": 78,
+      "tokens": 37
+    },
+    {
+      "tokenizer": "mistralai/Mistral-Nemo-Instruct-2407",
+      "family": "Open",
+      "test": "url",
+      "lang": "any",
+      "chars": 88,
+      "bytes": 88,
+      "tokens": 28
+    },
+    {
+      "tokenizer": "mistralai/Mistral-Nemo-Instruct-2407",
+      "family": "Open",
+      "test": "emoji",
+      "lang": "any",
+      "chars": 6,
+      "bytes": 24,
+      "tokens": 24
+    },
+    {
+      "tokenizer": "mistralai/Mistral-Nemo-Instruct-2407",
+      "family": "Open",
+      "test": "long_number",
+      "lang": "any",
+      "chars": 52,
+      "bytes": 52,
+      "tokens": 52
+    },
+    {
+      "tokenizer": "unsloth/gemma-3-1b-it",
+      "family": "Open",
+      "test": "greeting",
+      "lang": "en",
+      "chars": 80,
+      "bytes": 80,
+      "tokens": 17
+    },
+    {
+      "tokenizer": "unsloth/gemma-3-1b-it",
+      "family": "Open",
+      "test": "greeting",
+      "lang": "ru",
+      "chars": 78,
+      "bytes": 142,
+      "tokens": 18
+    },
+    {
+      "tokenizer": "unsloth/gemma-3-1b-it",
+      "family": "Open",
+      "test": "greeting",
+      "lang": "kk",
+      "chars": 63,
+      "bytes": 115,
+      "tokens": 27
+    },
+    {
+      "tokenizer": "unsloth/gemma-3-1b-it",
+      "family": "Open",
+      "test": "greeting",
+      "lang": "de",
+      "chars": 93,
+      "bytes": 94,
+      "tokens": 23
+    },
+    {
+      "tokenizer": "unsloth/gemma-3-1b-it",
+      "family": "Open",
+      "test": "greeting",
+      "lang": "zh",
+      "chars": 22,
+      "bytes": 66,
+      "tokens": 13
+    },
+    {
+      "tokenizer": "unsloth/gemma-3-1b-it",
+      "family": "Open",
+      "test": "short",
+      "lang": "en",
+      "chars": 20,
+      "bytes": 20,
+      "tokens": 5
+    },
+    {
+      "tokenizer": "unsloth/gemma-3-1b-it",
+      "family": "Open",
+      "test": "short",
+      "lang": "ru",
+      "chars": 16,
+      "bytes": 30,
+      "tokens": 4
+    },
+    {
+      "tokenizer": "unsloth/gemma-3-1b-it",
+      "family": "Open",
+      "test": "short",
+      "lang": "kk",
+      "chars": 13,
+      "bytes": 24,
+      "tokens": 7
+    },
+    {
+      "tokenizer": "unsloth/gemma-3-1b-it",
+      "family": "Open",
+      "test": "short",
+      "lang": "de",
+      "chars": 12,
+      "bytes": 12,
+      "tokens": 4
+    },
+    {
+      "tokenizer": "unsloth/gemma-3-1b-it",
+      "family": "Open",
+      "test": "short",
+      "lang": "zh",
+      "chars": 5,
+      "bytes": 15,
+      "tokens": 3
+    },
+    {
+      "tokenizer": "unsloth/gemma-3-1b-it",
+      "family": "Open",
+      "test": "science",
+      "lang": "en",
+      "chars": 56,
+      "bytes": 56,
+      "tokens": 11
+    },
+    {
+      "tokenizer": "unsloth/gemma-3-1b-it",
+      "family": "Open",
+      "test": "science",
+      "lang": "ru",
+      "chars": 51,
+      "bytes": 93,
+      "tokens": 15
+    },
+    {
+      "tokenizer": "unsloth/gemma-3-1b-it",
+      "family": "Open",
+      "test": "science",
+      "lang": "kk",
+      "chars": 50,
+      "bytes": 93,
+      "tokens": 23
+    },
+    {
+      "tokenizer": "unsloth/gemma-3-1b-it",
+      "family": "Open",
+      "test": "science",
+      "lang": "de",
+      "chars": 53,
+      "bytes": 54,
+      "tokens": 12
+    },
+    {
+      "tokenizer": "unsloth/gemma-3-1b-it",
+      "family": "Open",
+      "test": "science",
+      "lang": "zh",
+      "chars": 17,
+      "bytes": 51,
+      "tokens": 15
+    },
+    {
+      "tokenizer": "unsloth/gemma-3-1b-it",
+      "family": "Open",
+      "test": "numbers_dates",
+      "lang": "en",
+      "chars": 73,
+      "bytes": 73,
+      "tokens": 38
+    },
+    {
+      "tokenizer": "unsloth/gemma-3-1b-it",
+      "family": "Open",
+      "test": "numbers_dates",
+      "lang": "ru",
+      "chars": 71,
+      "bytes": 106,
+      "tokens": 38
+    },
+    {
+      "tokenizer": "unsloth/gemma-3-1b-it",
+      "family": "Open",
+      "test": "numbers_dates",
+      "lang": "kk",
+      "chars": 71,
+      "bytes": 106,
+      "tokens": 44
+    },
+    {
+      "tokenizer": "unsloth/gemma-3-1b-it",
+      "family": "Open",
+      "test": "numbers_dates",
+      "lang": "de",
+      "chars": 94,
+      "bytes": 95,
+      "tokens": 42
+    },
+    {
+      "tokenizer": "unsloth/gemma-3-1b-it",
+      "family": "Open",
+      "test": "numbers_dates",
+      "lang": "zh",
+      "chars": 41,
+      "bytes": 73,
+      "tokens": 36
+    },
+    {
+      "tokenizer": "unsloth/gemma-3-1b-it",
+      "family": "Open",
+      "test": "paragraph",
+      "lang": "en",
+      "chars": 247,
+      "bytes": 247,
+      "tokens": 44
+    },
+    {
+      "tokenizer": "unsloth/gemma-3-1b-it",
+      "family": "Open",
+      "test": "paragraph",
+      "lang": "ru",
+      "chars": 239,
+      "bytes": 442,
+      "tokens": 55
+    },
+    {
+      "tokenizer": "unsloth/gemma-3-1b-it",
+      "family": "Open",
+      "test": "paragraph",
+      "lang": "kk",
+      "chars": 219,
+      "bytes": 408,
+      "tokens": 91
+    },
+    {
+      "tokenizer": "unsloth/gemma-3-1b-it",
+      "family": "Open",
+      "test": "paragraph",
+      "lang": "de",
+      "chars": 260,
+      "bytes": 261,
+      "tokens": 51
+    },
+    {
+      "tokenizer": "unsloth/gemma-3-1b-it",
+      "family": "Open",
+      "test": "paragraph",
+      "lang": "zh",
+      "chars": 71,
+      "bytes": 213,
+      "tokens": 46
+    },
+    {
+      "tokenizer": "unsloth/gemma-3-1b-it",
+      "family": "Open",
+      "test": "python_code",
+      "lang": "any",
+      "chars": 88,
+      "bytes": 88,
+      "tokens": 41
+    },
+    {
+      "tokenizer": "unsloth/gemma-3-1b-it",
+      "family": "Open",
+      "test": "json",
+      "lang": "any",
+      "chars": 78,
+      "bytes": 78,
+      "tokens": 37
+    },
+    {
+      "tokenizer": "unsloth/gemma-3-1b-it",
+      "family": "Open",
+      "test": "url",
+      "lang": "any",
+      "chars": 88,
+      "bytes": 88,
+      "tokens": 31
+    },
+    {
+      "tokenizer": "unsloth/gemma-3-1b-it",
+      "family": "Open",
+      "test": "emoji",
+      "lang": "any",
+      "chars": 6,
+      "bytes": 24,
+      "tokens": 6
+    },
+    {
+      "tokenizer": "unsloth/gemma-3-1b-it",
+      "family": "Open",
+      "test": "long_number",
+      "lang": "any",
+      "chars": 52,
+      "bytes": 52,
+      "tokens": 52
+    }
+  ]
+}
